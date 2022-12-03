@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 import { useEffect } from "react";
 
 export default function FirstPost() {
+  const test = "test";
   const router = useRouter();
   useEffect(() => {
     router.push("/posts/first-post/?counter=10", undefined, { shallow: true });
